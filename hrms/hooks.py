@@ -1,19 +1,19 @@
 app_name = "hrms"
-app_title = "Frappe HR"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_title = "Cogniquaint HR"
+app_publisher = "Cogniquaint Systems Pvt. Ltd."
 app_description = "Modern HR and Payroll Software"
-app_email = "contact@frappe.io"
+app_email = "contact@cogniquaint.com"
 app_license = "GNU General Public License (v3)"
 required_apps = ["frappe/erpnext"]
-source_link = "http://github.com/frappe/hrms"
-app_logo_url = "/assets/hrms/images/frappe-hr-logo.svg"
+source_link = "http://github.com/cogniquaint/hrms"
+app_logo_url = "/assets/hrms/images/cogniquaint-hr-logo.svg"
 app_home = "/desk/people"
 
 add_to_apps_screen = [
 	{
 		"name": "hrms",
-		"logo": "/assets/hrms/images/frappe-hr-logo.svg",
-		"title": "Frappe HR",
+		"logo": "/assets/hrms/images/cogniquaint-hr-logo.svg",
+		"title": "Cogniquaint HR",
 		"route": "/desk/people",
 		"has_permission": "hrms.hr.utils.check_app_permission",
 	}
